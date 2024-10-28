@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Container for Navbar */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+		
+}
+
+/* Navbar List */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Evenly space items */
+}
+
+/* Navbar Links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    background-color: gray; /* Change color on hover */
+}
+
+/* Navbar Items */
+.navbar li {
+    text-align: center;
+}
