@@ -1,3 +1,15 @@
+h1{
+	border: 1px solid #999;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.myh1{
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+}
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -7,6 +19,7 @@
 .navbar {
     background-color: black;
     overflow: hidden;
+		border: 1px solid #999;
 		
 }
 
@@ -36,4 +49,48 @@
 /* Navbar Items */
 .navbar li {
     text-align: center;
+		font-size: 150%;
+}
+
+a{
+	color: blue;
+}
+
+center{
+	border: 1px solid #999;
+	padding: 100px;
+}
+
+
+
+
+input{
+		height: 25px;
+width: 250px;
+}
+.box4{
+	align-items: center;
+	margin: 10px;
+}
+
+.box{
+	width: 25px;
+	margin-bottom: 25px;
+}
+#box5{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+#box6{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button{
+	width: 250px;
+	height: 50px;
+	margin: 25px;
+	font-size: 150%;
 }
